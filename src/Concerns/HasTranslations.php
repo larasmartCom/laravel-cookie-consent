@@ -14,6 +14,6 @@ trait HasTranslations
 
         return ($value === $key)
             ? $default
-            : $value;
+            : $key;
     }
 }
